@@ -903,6 +903,24 @@ Best for: polished state transitions in product demos.
 Candlestick, Choropleth, Funnel, Gauge, Heatmap, Line, Pie, Radar, Ring,
 Sankey, Scatter + utilities. Composable API. Best for: data-driven videos.
 
+**Motion** — https://motion.dev/ (formerly Framer Motion)
+Production-grade React animation library. Key APIs:
+- `<motion.div>` — prefix any HTML/SVG tag to unlock animation props
+- `animate`, `initial`, `exit` — declarative animation targets
+- `whileHover`, `whileTap`, `whileInView` — gesture/scroll-triggered
+- `<AnimatePresence>` — animate elements entering/leaving DOM
+- `layout` / `layoutId` — animate between layout changes
+- `useMotionValue`, `useSpring`, `useTransform` — imperative control
+- `useScroll` — scroll-linked animations with hardware acceleration
+- Spring physics (default for x/y/scale), tween easing (for opacity)
+- Variants + stagger for orchestrated group animations
+- Independent transforms (x, y, rotate, scale without wrappers)
+
+Best for: complex UI animations, gesture interactions, layout transitions,
+enter/exit animations. Bklit's chart animations are built on Motion.
+Note: Motion animations are time-based; in Remotion, drive them with
+`useCurrentFrame()` via `useMotionValue` for frame-accurate rendering.
+
 **Termcn** — https://www.termcn.dev/
 Terminal UI components (Ink + OpenTUI, shadcn/ui patterns). Best for:
 terminal-aesthetic scenes — coding demos, CLI walkthrough animations.
