@@ -945,3 +945,13 @@ terminal-aesthetic scenes — coding demos, CLI walkthrough animations.
 - ClipPulse: https://www.clippulse.com/ — automated video content
 - Frameloop AI: https://www.frameloop.ai/ — AI video generation
 - LaunchCut: https://www.launchcut.io — product launch videos
+
+### Enconvo Local API Integration
+
+The video-maker project can use Enconvo's local API (port 54535) for:
+- **TTS** — Generate narration audio (`/tts/tts`, Edge free voices, Gemini multi-speaker)
+- **Transcription** — Transcribe footage for subtitles (`/transcribe/transcribe`, word/segment timestamps)
+- **Image Generation** — Create thumbnails, title cards, overlays (`/image_create/features/<provider>/create`)
+- **Gemini Video Analysis** — Analyze footage with `npx tsx src/tools/analyze-video.ts`
+
+See `skills/enconvo-api/SKILL.md` for full endpoint documentation and curl examples.
