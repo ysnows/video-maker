@@ -1,0 +1,25 @@
+{
+  "name": "video-maker",
+  "version": "1.0.0",
+  "description": "Enconvo marketing promo videos — one Remotion project, one composition per feature",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "preview": "remotion preview src/index.ts",
+    "render:visualize": "remotion render src/index.ts VisualizePromo out/visualize.mp4",
+    "render:doodle": "remotion render src/index.ts DoodlePromo out/doodle.mp4",
+    "render:all": "npm run render:visualize && npm run render:doodle"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.483",
+    "@remotion/cli": "4.0.483",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.483"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3"
+  }
+}

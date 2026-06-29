@@ -1,0 +1,19 @@
+1
+00:00:00,500 --> 00:00:04,400
+Just describe the data you want
+to visualize in plain English.
+
+2
+00:00:05,500 --> 00:00:10,700
+Enconvo understands your request and
+generates a beautiful interactive chart.
+
+3
+00:00:11,500 --> 00:00:17,800
+Real GDP, inflation, and unemployment —
+all in one interactive visualization.
+
+4
+00:00:21,500 --> 00:00:27,800
+From prompt to visualization in seconds.
+Enconvo — your AI productivity assistant.
