@@ -245,6 +245,9 @@ curl -X POST http://localhost:54535/transcribe/transcribe \
 
 ## 3  Image Generation
 
+**Default provider: OpenAI (`open_ai/create`).** Always use OpenAI for image
+generation unless the user explicitly requests another provider.
+
 ### Quick Start — Generate an image
 
 ```bash

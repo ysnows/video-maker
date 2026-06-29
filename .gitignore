@@ -3,3 +3,5 @@ dist/
 out/
 .DS_Store
 .env
+analysis/videos/
+analysis/results/

@@ -955,3 +955,13 @@ The video-maker project can use Enconvo's local API (port 54535) for:
 - **Gemini Video Analysis** — Analyze footage with `npx tsx src/tools/analyze-video.ts`
 
 See `skills/enconvo-api/SKILL.md` for full endpoint documentation and curl examples.
+
+### FlashMotion Style Reference
+
+`skills/flashmotion-style/SKILL.md` — Comprehensive production style guide
+synthesized from deep analysis of 78 professional SaaS product videos from
+FlashMotion studio. Covers: visual design system (color palettes, typography,
+layout), motion design playbook (20 Remotion implementation recipes), screen
+recording patterns, audio/sound design, pacing frameworks, storytelling
+templates, style taxonomy (Neon Futurist / Clean & Bright / Founder-Led),
+quality scorecard with top 10 videos, and technique frequency table.
